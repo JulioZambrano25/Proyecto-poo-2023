@@ -60,12 +60,11 @@ namespace AlquilerAuto
         {
             Console.WriteLine("Ingrese el nombre del nuevo cliente:");
             Cliente cliente = new Cliente();
-            cliente.Nombre= this.nombre;
+            cliente.Nombre= Console.ReadLine();
             Console.WriteLine("Ingrese el apellido del cliente:");
-            cliente.Apellido=this.apellido;
-            Console.WriteLine("Ingrese el nùmero de telefono del nuevo cliente");
-            cliente.Telefono=this.telefono; 
-
+            cliente.Apellido=Console.ReadLine();
+            Console.WriteLine("Los datos ingresado son los siguientes:");
+            Console.WriteLine("Nombre:{0}, Apellido: {1}",Nombre,Apellido);
         }
 
         /*
@@ -75,9 +74,6 @@ namespace AlquilerAuto
 
         public void ModificarCliente()
         {
-            Console.WriteLine("Ingrese el ID del cliente al que va a modificar los datos");
-            Cliente cliente = new Cliente();
-            cliente.Id=this.id;
 
         }
     }
