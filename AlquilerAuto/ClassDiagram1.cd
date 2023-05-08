@@ -3,34 +3,34 @@
   <Class Name="AlquilerAuto.Cliente">
     <Position X="3.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAgEAAAAAAA=</HashCode>
       <FileName>Cliente.cs</FileName>
     </TypeIdentifier>
-  </Class>
-  <Class Name="AlquilerAuto.Usuario">
-    <Position X="9" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAQAAAABAAAAAAAAACAAAAAAAAAAAQAABgAAAAAAAA=</HashCode>
-      <FileName>Usuario.cs</FileName>
-    </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="Cliente" />
+      <Property Name="Usuario" />
       <Property Name="Factura" />
       <Property Name="Vehiculo" />
       <Property Name="Alquiler" />
     </ShowAsAssociation>
   </Class>
+  <Class Name="AlquilerAuto.Usuario">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Class Name="AlquilerAuto.Persona">
-    <Position X="6.25" Y="0.5" Width="1.5" />
+    <Position X="6.25" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAQQAAACEAAAAgAAAAYAAAACAAAAAAgAAAgI=</HashCode>
       <FileName>Persona.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="AlquilerAuto.Vehiculo">
-    <Position X="2" Y="3.75" Width="1.5" />
+    <Position X="3.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAASABAAEAAQAAAAAAAIAAAACAAAAAAAAAgAAAAIAgA=</HashCode>
       <FileName>Vehiculo.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -42,7 +42,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="AlquilerAuto.Factura">
-    <Position X="9.5" Y="6.5" Width="1.5" />
+    <Position X="0.5" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Factura.cs</FileName>
