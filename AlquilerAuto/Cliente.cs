@@ -19,38 +19,6 @@ namespace AlquilerAuto
         {
 
         }
-
-        public Usuario Usuario
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public Factura Factura
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public Vehiculo Vehiculo
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public Alquiler Alquiler
-        {
-            get => default;
-            set
-            {
-            }
-        }
     }
 
    

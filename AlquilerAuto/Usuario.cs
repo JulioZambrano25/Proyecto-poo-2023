@@ -20,10 +20,43 @@ namespace AlquilerAuto
         {
 
         }
+
+        public Cliente Cliente
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Factura Factura
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Vehiculo Vehiculo
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Alquiler Alquiler
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         /*
-            Se crea el metodo para poder agregar un cliente con la clausula de que genere un ingreso 
-            para poder alquilar un auto
-         */
+   Se crea el metodo para poder agregar un cliente con la clausula de que genere un ingreso 
+   para poder alquilar un auto
+*/
         public void AgregarCliente()
         {
             Console.WriteLine("Ingrese el nombre del nuevo cliente:");
