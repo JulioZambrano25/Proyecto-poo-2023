@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Alquiler.cs" />
+    <Compile Include="Carro.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="Factura.cs" />
     <Compile Include="Persona.cs" />
